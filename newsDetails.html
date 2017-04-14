@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/news.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+		<!--<script type="text/javascript" src="js/comment.js"></script>-->
+	</head>
+	<body>
+		<!--应用头部显示区域-->
+		<header class="function-header-area">
+			<!--返回上一页面-->
+			<a href="" class="header-left-pullback iconfont icon-left"></a>
+			<!--页面标题-->
+			<h1 class="header-middle-title">新闻详情</h1>
+		</header>
+		
+		<!--内容显示-->
+		<div class="function-each-content function-scroll-area">
+			<!--详情-->
+			<div class="news-details-scroll">
+				<!--文字-->
+				<div class="news-details-area">	
+					<p class="news-details-title">中国建筑召开2015年度股东大会</p>
+					<span class="news-details-date">
+						<span>2016-11-22 15:59</span>
+						<span class="line">|</span>
+						<span>发布人：小鲜肉 </span>
+					</span>
+					<div class="news-details-article">
+						<p class="news-details-img">
+							<img src="img/news1.jpg"/>
+						</p>
+						<hr style="margin: 3px 0px;line-height: 26px;" />
+						<p class="news-details-text">&nbsp;&nbsp;5月9日，中国建筑股份有限公司召开2015年度股东大会。会议由公司董事长官庆主持，公司部分董事、监事、高级管理人员出席会议，见证律师列席会议。
+							<br />
+						&nbsp;&nbsp;本次股东大会采取现场投票与网络投票相结合的方式。现场会议于当日下午在北京召开。出席本次股东大会现场会议的股东及股东代理人共计31人，所持股份共计17,094,721,255股。参加网络投票表决的股东共计38人，所持股份共计142,760,640股。
+							<br />
+						&nbsp;&nbsp;会议审议通过了《中国建筑股份有限公司2015年度董事会工作报告》、《中国建筑股份有限公司2015年度监事会工作报告》、《中国建筑股份有限公司2015年度财务决算报告》、《中国建筑股份有限公司2015年度利润分配方案》、《中国建筑股份有限公司2015年度报告》等共计16项议案。（董事会办公室供稿）
+						</p>
+					</div>
+				</div>
+				<!--读者列表-->
+				<div class="news-reader-view">	
+					<span class="peopele-number">
+						<span style="color: #2786ff;">8</span>人已读
+					</span>
+					<span class="show-list iconfont icon-up"></span>
+				</div>
+				
+				<p class="reader-all-info">
+					张新静设备，艾若琳设备，gyjuece，adminicop，bpm测试11，gyshebei，艾若琳决策，柳雄设备
+				</p>
+				<!--评论区-->
+				<div class="news-comments-area">	
+					<div class="news-comments-tiltle">评论区</div>
+					<ul class="news-table-view">
+						<li class="news-each-view">
+							<img class="news-reader-img" src="img/head_demo.png"/ >
+							<div class="commments-content">
+								<div class="news-reader-name">wwww</div>
+								<div class="comments-createTime">11-29 14:26</div>
+								<div class="comments-text">会议审议通过了《中国建筑股份有限公司2015年度董事会工作报告》、《中国建筑股份有限公司2015年度监事会工作报告》</div>
+							</div>
+						</li>
+						<li class="news-each-view">
+							<img class="news-reader-img" src="img/head_demo.png"/ >
+							<div class="commments-content">
+								<div class="news-reader-name">wwww</div>
+								<div class="comments-createTime">11-29 14:26</div>
+								<div class="comments-text">hsihsishish</div>
+							</div>
+						</li>
+						<li class="news-each-view">
+							<img class="news-reader-img" src="img/head_demo.png"/ >
+							<div class="commments-content">
+								<div class="news-reader-name">wwww</div>
+								<div class="comments-createTime">11-29 14:26</div>
+								<div class="comments-text">hsihsishish</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--侧边滚动条-->
+			<!--<div class="function-scroll-bar">
+				<div class="function-scrollbar-active">				
+				</div>
+			</div>-->
+		</div>
+		
+		<!--底部固定栏-->
+		<div class="function-bottomBar">
+			<ul class="publish-comments-list">
+				<li style="flex: 4;padding: 10px 15px;">
+					<input type="search" class="input-search-row" value="写评论..."/>
+				</li>
+				<li style="line-height: 48px;">
+					<span class="iconfont icon-liuyan chat">
+						<span class="comments-count">10</span>
+					</span>
+				</li>
+				<li style="line-height: 48px;">
+					<div class="news-collect-container">
+						<div class="collect">
+							<span class="iconfont icon-shoucang1 star"></span>
+						</div>
+					</div>	
+				</li>
+				<li style="line-height: 48px;">
+					<span class="iconfont icon-fenxiang01 share"></span>
+				</li>
+			</ul>
+		</div>
+			
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.icon-shoucang1').click(function(e){
+					$('.icon-shoucang1:before').css('content',' ')
+				})
+			}
+		</script>
+	</body>
+</html>

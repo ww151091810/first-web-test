@@ -1,0 +1,97 @@
+.holiday-list-content {
+	margin-bottom: 5px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.holiday-list-title {
+	height: 25px;
+	margin: 0;
+	padding: 15px 15px 35px 15px;
+	border-top: 1px solid #D3D2D2;
+	border-bottom: 1px solid #EFEAEA;
+}
+
+.bill-name {
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: 400;
+}
+
+.bill-state {
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 60px;
+	color: #ED7F0E;
+	font-size: 15px;
+	text-align: center;
+	border: 1px solid #ED7F0E;
+	border-radius: 10px;
+}
+
+.holiday-time-content {
+	width: 100%;
+	margin: 0;
+	padding: 15px 15px;
+}
+
+.holiday-info-area {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	color: #999999;
+	line-height: 30px;
+	padding: 0;
+}
+
+.holiday-type-info {
+	float: left;
+    width: 75px;
+}
+
+.holiday-type-text {
+	margin-left: 80px;
+    height: auto;
+    color: #333333;
+}
+
+.holiday-time-info {
+	float: left;
+    width: 75px;
+}
+
+.holiday-time-text {
+	margin-left: 80px;
+    height: auto;
+    color: #333333;
+}
+
+.holiday-reason-info {
+	float: left;
+    width: 75px;
+}
+
+.holiday-reason-text {
+	margin-left: 80px;
+    height: auto;
+    color: #333333;
+}
+
+.holiday-level-time {
+	margin: 0;
+	color: #333333;
+}
+
+.operation-area {
+	padding: 10px 0;
+	height: 45px;
+	line-height: 25px;
+	color: #fff;
+	vertical-align: middle;
+	text-align: center;
+	background: #08B4E2;
+}
